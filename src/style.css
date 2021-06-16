@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+}
+
+h1,
+p {
+  font-family: Lato;
+}
+
+.modal {
+  box-sizing: border-box;
+  background: #29031e;
+  border: 2px solid #ee45bb;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  color: white;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: calc(50% - 150px);
+  left: calc(50% - 200px);
+
+  font-size: 40px;
+}
+
+.modal_bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
